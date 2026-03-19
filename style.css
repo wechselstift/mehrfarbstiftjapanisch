@@ -498,7 +498,7 @@ text-shadow: 1px 1px 4px rgba(0,0,0,1), -1px -1px 3px rgba(0,0,0,1), 5px 5px 5px
     left: 5px;      
     font-size: 40px;
     font-weight: bold;
-	font-family: Great Vibes;
+	font-family: 'Great Vibes', cursive !important;
     color: black;       
     transform: rotate(-35deg);  
     transform-origin: 50% 180%;     
