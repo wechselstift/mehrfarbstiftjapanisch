@@ -1,0 +1,17 @@
+<div class="hinweis"> 
+	<div id="hinweisoverlay">Notice!</div> 
+	<a style="font-size:16px"><b>This website has been automatically translated!</b></a><br>
+
+				
+	<div class="languageContainer">
+	<div class="languageContainerItem">
+	<img class="languageContainerImage" src="images/deutschland.png"/>
+	<a href="https://vintagemultipens.org/">German version (Original)</a>
+	</div>
+	<div class="languageContainerItem">
+	<img class="languageContainerImage" src="images/japan.png"/>
+	<a href="&gt;https://wechselstift.de/">Japanese version (Also translated)</a>
+	</div>
+	</div>
+</div> 
+<hr style="width:80%">

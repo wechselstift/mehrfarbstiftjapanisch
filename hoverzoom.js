@@ -80,6 +80,15 @@ document.addEventListener("DOMContentLoaded", function () {
      
 });
     
+	  
+fetch("hinweis.html")
+  .then(res => res.text())
+  .then(data => {
+    const foot = document.getElementById("hin");
+    if (foot) foot.innerHTML = data;
+  });
+    
+    
 
 
 fetch("footer.html")
@@ -111,7 +120,8 @@ fetch("rechts.html")
     const foot = document.getElementById("rechts");
     if (foot) foot.innerHTML = data;
   });
-    
+  
+
 
 
 

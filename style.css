@@ -21,6 +21,32 @@ table, th, td {
   border:1px solid black;
 }
 
+.languageContainer {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.languageContainerItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.languageContainerImage {
+  width: 20px;
+  height: 15px;
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+.languageContainerItem a {
+  text-decoration: none;
+}
+
+
 #navi a.active {
 	font-weight: bold;
 }
@@ -442,10 +468,11 @@ text-shadow: 1px 1px 4px rgba(0,0,0,1), -1px -1px 3px rgba(0,0,0,1), 5px 5px 5px
 .hinweis {
     position: relative; /* wichtig für absolute Positionierung des Textes */
     width: 80%;
-	height: 80px;
+	height: 60px;
     max-width: 600px;
-    margin: 40px auto;
-	font-size:12px;
+    margin: 10px auto;
+	margin-bottom: 30px;
+	font-size:14px;
     padding: 10px;
     border: 1px solid #999;
     text-align: center;
@@ -453,16 +480,7 @@ text-shadow: 1px 1px 4px rgba(0,0,0,1), -1px -1px 3px rgba(0,0,0,1), 5px 5px 5px
     box-sizing: border-box;
 }
 
-.hinweis-text {
-    position: absolute;
-    top: -20px;      
-    left: -10px;    
-    font-size: 10px;
-    font-weight: bold;
-    color: red;      
-    transform: rotate(-45deg); 
-    transform-origin: 0 0;    
-}
+
 
 .norma {
 	position: absolute;
@@ -477,12 +495,12 @@ text-shadow: 1px 1px 4px rgba(0,0,0,1), -1px -1px 3px rgba(0,0,0,1), 5px 5px 5px
 #hinweisoverlay {
  position: absolute;
     top: -20px;     
-    left: -10px;      
-    font-size: 35px;
+    left: 5px;      
+    font-size: 40px;
     font-weight: bold;
 	font-family: Great Vibes;
     color: black;       
-    transform: rotate(-40deg);  
+    transform: rotate(-35deg);  
     transform-origin: 50% 180%;     
     z-index: 10;
 }

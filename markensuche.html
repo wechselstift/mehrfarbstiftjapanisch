@@ -1,99 +1,73 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Mehrfarbstifte</title>
-    <link rel="stylesheet" href="style.css">
-	<script src="hoverzoom.js"></script>
-	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-	<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+<meta charset="utf-8"/>
+<title>Multicolor pencils</title>
+<link href="style.css" rel="stylesheet"/>
+<script src="hoverzoom.js"></script>
+<link href="icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="icons/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
 </head>
-
 <body>
-
 <div id="container">
-	<div id="banner-wrapper">
-	
-	</div>
+<div id="banner-wrapper">
+</div>
 <div id="navbar"></div>
-    <div id="main">
-		<div class="frame largest"></div>
-		<div class="frame middle"></div>
-		<div class="frame smallest"></div>
-        <div id="content">
-            <h2>Historische Markensuche</h2>
-            <h3 style="color:#666666; margin-top:-20px">Finde alte Eintragungen von 1950-2002</h3>
-			<p style="font-size:12px; margin-top:-20px; text-align:right">Stand: 27.02.2026</p> <hr>
-			<br>
-
-			<img src="images/buch.png" alt="" style="border:none; display:block; margin: 0 auto; height:300px;">
-			<br>
-			<b>Eingabe</b>: 
+<div id="main">
+<div class="frame largest"></div>
+<div class="frame middle"></div>
+<div class="frame smallest"></div>
+<div id="content">
+<div id="hin"></div>
+<h2>Historical trademark search</h2>
+<h3 style="color:#666666; margin-top:-20px">Find old entries from 1950-2002</h3>
+<p style="font-size:12px; margin-top:-20px; text-align:right">Stand: 27.02.2026</p> <hr/>
+<br/>
+<img alt="" src="images/buch.png" style="border:none; display:block; margin: 0 auto; height:300px;"/>
+<br/>
+<b>input</b>: 
 			<ul>
-			<li>Ein Wort oder eine Regular Expression. </li>
-			<li>Zeitraum in Jahren (max 1950-2002).</li>
-				</ul>
-			
-			<b>Ausgabe</b>: 
+<li>A word or a regular expression.</li>
+<li>Period in years (max 1950-2002).</li>
+</ul>
+<b>output</b>: 
 			<ul>
-			<li>Ein einziges PDF-Dokument mit allen PDF-Seiten mit gefundenen Suchbegriffen. </li>
-			<li>Zusätzlich zu jeder Seite ist die vorherige und folgende Seite inbegriffen. </li>
-			</ul>
-			Größe: <br>
-			><b>2600 Warenzeichenblätter</b>, ><b>97 GB Daten</b>, ><b>300.000 Seiten</b>. <br><br>
-			<hr>
-
-			<h3>Zusatzinformationen</h3>
-            <h4 style="color:#666666; margin-top:-20px">Über die Ausgabe</h4>
-			Das DPMA hat ein Archiv an Warenzeichenblättern. Doch es fehlt (meines Wissens nach) eine Suchfunktion. <br>
-			Google Books bietet zwar eine Suche an, doch unterstützt diese (glaube ich) keine Regular Expressions, gibt Ihnen kein einzelnes kompaktes PDF aus 
-			findet nicht alle Suchergebnisse (in meinem Test). <br><br>
-			<b>Wenn Sie mir Ihre Eingabe per Kontaktformular oder E-Mail mitteilen, führe ich die Suche durch und schicke Ihnen das Ergebnis</b>. 
-			<br>
-			<br>
-			Die Warenzeichenblätter sind von 1950-2002, aber <b>es sind auch Marken von vor 1950 enthalten</b>. <br>
-			Das gilt, wenn diese wiederaufgenommen oder erstmals nachträglich veröffentlicht wurden. Deshalb lohnt sich die Suche auch nach älterem. <br><br> 
-			Es macht auch Spaß, einfach ein bisschen durch einen endlosen Strom an kreativen Bildchen und Textkreationen zu scrollen. <br><br>
-
-			<hr>
-			  <h3>Ausländische Marken</h3>
-            <h4 style="color:#666666; margin-top:-20px">Äquivalente zum Warenzeichenblatt</h4>
-			Für die USA gibt es die 'Official Gazette'. 
-			
-			<hr> 
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLwOXbZJwJs4WRS_knG3MS9S2Ap6W3s2tK3A4V-wHmfJbYDQ/viewform?embedded=true" width="600" height="600" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe>
-
-        </div>
-        <div id="bilder" style="margin-top:80%"> 
-			
-			<div class="sideimage">
-				<img src="images/pelikan.gif" alt="" style="border:none">
-				<div class="caption">Ganz schnell alles zu einem Hersteller finden</div>
-			</div>
-
-
-		</div>
-        <div class="clear"></div>
-    </div>
-
-   
-    <div id="footer">
-		<div id="fragebox">
-			<div id="frage"> <i> Wollen Sie sich über Mehrfarbstifte austauschen?</i><br></div>
-			<p style="font-size:16px">Nehmen Sie mit mir jederzeit Kontakt auf! <br>
-			<p style="font-size:19px; letter-spacing: 1px">
-				<span class="inline-icon"><img src="images/hand.jpg" alt="→"></span>
-				<b><i><a style="color:black" class="mail" href="mailto:wechselstift@gmail.com">wechselstift@gmail.com</a></i></b>
-				<span class="inline-icon"><img src="images/hand.jpg" style="transform: scale(-1, 1)" alt="→"></span> </p  style="font-size:11px">
-			</p>
-			<p style="line-height: 1.2; font-size:11px; letter-spacing: 1px">
-				Möchten Sie verkaufen? Ich kaufe alles: Stifte, Werbung, Dokumente.<br>Sie erhalten ein faires Angebot.
-			</p style="font-size:11px">
-		</div>
-        © 2025 Mehrfarbstifte
-    </div>
-
+<li>A single PDF document with all PDF pages with search terms found.</li>
+<li>In addition to each page, the previous and following pages are included.</li>
+</ul>Size:<br/>
+			&gt;<b>2600 trademark sheets</b>, &gt;<b>97GB data</b>, &gt;<b>300,000 pages</b>. <br/><br/>
+<hr/>
+<h3>Additional information</h3>
+<h4 style="color:#666666; margin-top:-20px">About the edition</h4>The DPMA has an archive of trademark sheets. But (to my knowledge) there is no search function.<br/>Google Books does offer a search, but (I think) it doesn't support regular expressions and won't give you a single compact PDF 
+			does not find all search results (in my test).<br/><br/>
+<b>If you give me your input via contact form or email, I will carry out the search and send you the result</b>. 
+			<br/>
+<br/>The trademark sheets are from 1950-2002, but<b>stamps from before 1950 are also included</b>. <br/>This applies if they were resumed or subsequently published for the first time. That's why it's worth looking for older ones.<br/><br/>It's also fun to just scroll through an endless stream of creative images and text creations.<br/><br/>
+<hr/>
+<h3>Foreign brands</h3>
+<h4 style="color:#666666; margin-top:-20px">Equivalents to the trademark sheet</h4>For the USA there is the 'Official Gazette'.<hr/>
+<iframe frameborder="0" height="600" marginheight="0" marginwidth="0" src="https://docs.google.com/forms/d/e/1FAIpQLScLwOXbZJwJs4WRS_knG3MS9S2Ap6W3s2tK3A4V-wHmfJbYDQ/viewform?embedded=true" width="600">Is loading…</iframe>
+</div>
+<div id="bilder" style="margin-top:80%">
+<div class="sideimage">
+<img alt="" src="images/pelikan.gif" style="border:none"/>
+<div class="caption">Find everything about a manufacturer quickly</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div id="footer">
+<div id="fragebox">
+<div id="frage"> <i>Would you like to exchange ideas about multi-colored pencils?</i><br/></div>
+<p style="font-size:16px">Contact me at any time!<br/>
+<p style="font-size:19px; letter-spacing: 1px">
+<span class="inline-icon"><img alt="→" src="images/hand.jpg"/></span>
+<b><i><a class="mail" href="mailto:wechselstift@gmail.com" style="color:black">wechselstift@gmail.com</a></i></b>
+<span class="inline-icon"><img alt="→" src="images/hand.jpg" style="transform: scale(-1, 1)"/></span> </p>
+</p>
+<p style="line-height: 1.2; font-size:11px; letter-spacing: 1px">Do you want to sell? I buy everything: pens, advertising, documents.<br/>You will receive a fair offer.</p>
+</div>© 2025 Multicolor Pencils</div>
 </div>
 <div id="rechts"> </div>
 </body>
